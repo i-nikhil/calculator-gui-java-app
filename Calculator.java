@@ -14,6 +14,7 @@ public class Calculator implements ActionListener, WindowListener
 		f=new Frame("Calculator");
 		p=new Panel();
 		f.setLayout(new FlowLayout());
+		f.setBackground(Color.BLUE);
 		p.setLayout(new GridLayout(5,4,20,20));
 		t=new TextField("0",18);
 		t.setEditable(false);
